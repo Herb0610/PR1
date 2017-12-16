@@ -16,6 +16,7 @@ public class HelloWorld {
 			System.out.println("Lieber Benutzer, die Zahl ist größer 100!");
 		}
 		
+		
 		zahl = 201710;
 		// Counter definieren
 		int counter = 2;
