@@ -4,10 +4,17 @@ public class Bestellung {
 
 	private String nummer;
 	private Bestellzeile[] bestellzeilen;
+	private String countryID;
 	
-	public Bestellung(String nummer, Bestellzeile[] bestellzeilen) {
+	
+	public Bestellung(String nummer, String countryID, Bestellzeile[] bestellzeilen) {
 		this.nummer = nummer;
 		this.bestellzeilen = bestellzeilen;
+		this.countryID = countryID;
+	}
+	public String getCountryID()
+	{
+		return countryID;
 	}
 	
 	public void printBestellung()
